@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Toddy</title>
+        <title>Toddy - Productos</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -29,7 +29,7 @@
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
-    <body id="bg_all">
+    <body id="bg_pro">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -40,63 +40,24 @@
 
         <div id="wrap">
 
-            <div class="container-fluid" style="max-width:940px;margin:0 auto;">
-
-                <!--NAV-->
-                <header class="row-fluid cont_nav">
-
-                    <div style="position:relative;z-index:999;">
-                        
-                        <div class="span3">
-                        
-                            <a href="./"><img src="img/logo_toddy.png" alt=""/></a>
-
-                        </div>
-                        <nav class="span6 nav_prin">
-
-                            <ul class="unstyled nav nav-pills">
-                                <li class="pull-left"><a href="productos.php">productos</a></li>
-                                <li class="divider-vertica"></li>
-                                <li class="pull-left"><a href="juegos.php">juegos</a></li>
-                                <li class="divider-vertical"></li>
-                                <li class="pull-left"><a href="comic.php">comic</a></li>
-                            </ul>
-
-                        </nav>
-
-                        <div class="span3 text-center">
-                            
-                            Siguenos en
-
-                            <ul class="unstyled nav_soci">
-                                <li class="pull-left red_tw"><a href=""></a></li>
-                                <li class="pull-left red_fb"><a href=""></a></li>
-                                <li class="pull-left red_yt"><a href=""></a></li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-                    
-                    <img class="bg_nav" src="img/bg_nav.png" alt=""/>
-                </header>
+            <div class="container-fluid">
 
                 <!--SLIDE-->
                 <div class="row-fluid">
                     <div class="span12">
                         
-                        <div id="promos" class="carousel slide">
+                        <div id="prod" class="carousel slide">
                             
-                            <div class="carousel-inner text-center">
-                                <div class="active item"><a href=""><img src="img/destacados/banner001-trans.png" alt=""/></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner01-trans.png" alt=""/></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner02-trans.png" alt=""></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner03-trans.png" alt=""></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner04-trans.png" alt=""></a></div>
+                            <div class="carousel-inner">
+                                <div class="active item"><img src="img/pro_slide_01.png" alt=""/></div>
+                                <div class="item"><img src="img/pro_slide_02.png" alt=""/></div>
+                                <div class="item"><img src="img/pro_slide_03.png" alt=""/></div>
+                                <div class="item"><img src="img/pro_slide_04.png" alt=""/></div>
+                                <div class="item"><img src="img/pro_slide_05.png" alt=""/></div>
                             </div>
 
-                            <a class="carousel-control left" href="#promos" data-slide="prev"></a>
-                            <a class="carousel-control right" href="#promos" data-slide="next"></a>
+                            <a class="carousel-control left" href="#prod" data-slide="prev"></a>
+                            <a class="carousel-control right" href="#prod" data-slide="next"></a>
 
                         </div>
 
