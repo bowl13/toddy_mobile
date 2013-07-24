@@ -1,15 +1,19 @@
 html, body{
 	height: 100%;
+    color: #fff;
 }
 .load{
     background-color: #fff;
     position: fixed;
     width: 100%;
     height: 100%;
+    top: 0;
+    left:0;
 }
 #wrap, footer{
     display: none;
 }
+/*SETUP FOOTER*/
 #wrap{
 	min-height:100%;
 	height: auto !important;
@@ -21,10 +25,11 @@ html, body{
 }
 .footer-fix{
 	position: relative;
-	margin-top: -150px;
-	height:150px;
+	margin-top: -169px;
+	height:169px;
 	clear:both;
   	padding-top:20px;
+    background-image: url('../img/bg_footer.gif');
 }
 @media (max-width: 767px) {
     .footer-fix {
@@ -33,4 +38,68 @@ html, body{
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+/*HEADER*/
+header.cont_nav{
+    margin-top: 30%;
+}
+header .bg_nav{
+    position:absolute;
+    max-width:940px;
+    right: 0;
+    left: 0;
+    margin:-8px auto;
+    z-index: 99;
+}
+header .nav_prin{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+header .nav_prin li{
+    margin:20px 0 0 20px;
+}
+header .nav_prin a{
+    color: #fff
+}
+header .nav_prin a:hover{
+    border-bottom:2px solid #ff0e00;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+}
+header .nav_prin a:focus{
+    border-bottom:2px solid #ff0e00;
+}
+header .nav_soci{
+    margin:10px 0 0 40px;
+}
+header .nav_soci li{
+    margin-right: 20px;
+}
+/*DESTACADOS*/
+#promos{
+    max-width:780px;
+    margin:-70px auto 0;
+    position: relative;
+    z-index: 9;
+}
+#promos .carousel-control{
+    border: none !important;
+    border-radius: none !important;
+    background-color: transparent !important;
+    background-image: url('../img/arrow_desta.png');
+    background-repeat: no-repeat;
+    width:48px;
+    height:48px;
+    top:50%;
+}
+#promos .carousel-control.right{
+    background-position:-56px;
+}
+/*FONDOS*/
+#bg_all{
+    background-image: url('../img/bg_all.jpg');
+    background-position: center;
+    background-color: #015;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
