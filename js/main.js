@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	$('.cont_comic').mouseenter(function(){
+		$('.cont_comic a').css('background-image','url(img/cont_comic2.png)');
+	});
+	$('.cont_comic').mouseleave(function(){
+		$('.cont_comic a').css('background-image','url(img/cont_comic.png)');
+	});
 
 	$("#ticker").tweet({
 		username: "toddy_cl",

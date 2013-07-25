@@ -24,8 +24,7 @@ html, body{
 	height: 185px;
 }
 .footer-fix{
-	position: relative;
-	margin-top: -185px;
+	/*margin-top: -185px;*/
 	height:185px;
 	clear:both;
   	padding-top:20px;
@@ -44,18 +43,18 @@ html, body{
 /*HEADER*/
 header.cont_nav{
     margin-top: 300px;
-}
-header .bg_nav{
-    position:absolute;
-   width:940px;
-    right: 0;
-    left: 0;
-    margin:-8px auto;
-    z-index: 99;
+    background-image: url('../img/bg_nav.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 999;
 }
 header .nav_prin{
     font-size: 18px;
     text-transform: uppercase;
+    margin-top: 15px;
 }
 header .nav_prin li{
     margin:20px 0 0 20px;
@@ -98,6 +97,43 @@ header .nav_soci li a{
     width:31px;
     height:31px;
 }
+/*INNER NAV*/
+header.inner_nav{
+    width:100%;
+    position:fixed;
+    height:66px;
+    background-image: url('../img/bg_inner_nav.png');
+    background-repeat: repeat-x;
+    z-index: 999;
+    top:0;
+    left:0;
+}
+header.inner_nav .nav_prin{
+    font-size: 12px;
+    margin-top: 0;
+}
+header.inner_nav .nav_prin li{
+    margin-top:10px;
+}
+header .cont_inner_nav{
+    max-width:940px;
+    margin:0 auto;
+    background-image:url('../img/bg_inner_nav_pun.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    height:60px;
+}
+/*FOOTER NAV*/
+.bg_inner_footer{
+    background-image: url('../img/bg_inner_footer.png');
+    background-color: transparent !important;
+    height: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 /*DESTACADOS*/
 #promos{
     max-width:780px;
@@ -121,14 +157,24 @@ header .nav_soci li a{
 #prod .carousel-control{
     top: 55%;
 }
-#prod .carousel-control.right{
-    right: 20%;
-}
-#prod .carousel-control.left{
-    left:25%;
-}
 #promos .carousel-control.right, #prod .carousel-control.right{
     background-position:-56px;
+}
+/*CONT COMIC*/
+.cont_comic{
+    margin:0 auto;
+    width:1004px;
+    height:500px;
+}
+.cont_comic a{
+    display: block;
+    width: 100%;
+    height:100%;
+    background-image: url('../img/cont_comic.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 /*FONDOS*/
 #bg_all{
@@ -137,6 +183,7 @@ header .nav_soci li a{
     background-color: #015;
     -webkit-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #bg_pro{
     background-image: url('../img/bg_pro.jpg');
@@ -144,4 +191,21 @@ header .nav_soci li a{
     background-color: #015;
     -webkit-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+#bg_com{
+    background-image: url('../img/bg_com.gif');
+    background-position: center;
+    background-color: #1f97f4;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bg_jue{
+    background-image: url('../img/bg_jue.jpg');
+    background-position: center;
+    background-color: #1f97f4;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

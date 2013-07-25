@@ -18,18 +18,13 @@
         <meta property="og:site_name" content="PROYECTO"/>
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 10px;
-                padding-bottom: 10px;
-            }
-        </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body id="bg_pro">
+
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -41,7 +36,42 @@
         <div id="wrap">
 
             <div class="container-fluid">
+                <!--NAV-->
+                <header class="row-fluid inner_nav">
+                    
+                    <div class="cont_inner_nav">
+                        
+                        <div class="span2">
+                        
+                            <a href="./"><img src="img/logo_toddy.png" alt=""/></a>
 
+                        </div>
+                        <nav class="span5 offset1 nav_prin">
+
+                            <ul class="unstyled nav nav-pills">
+                                <li class="pull-left"><a href="productos.php">productos</a></li>
+                                <li class="divider-vertica"></li>
+                                <li class="pull-left"><a href="juego.php">juegos</a></li>
+                                <li class="divider-vertical"></li>
+                                <li class="pull-left"><a href="comic.php">comic</a></li>
+                            </ul>
+
+                        </nav>
+
+                        <div class="span4 text-center">
+                            
+                            <ul class="unstyled nav_soci">
+                                <li class="pull-left" style="font-size:11px;width:65px;padding-top:4px;">Siguenos en</li>
+                                <li class="pull-left red_tw"><a href=""></a></li>
+                                <li class="pull-left red_fb"><a href=""></a></li>
+                                <li class="pull-left red_yt"><a href=""></a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </header>
                 <!--SLIDE-->
                 <div class="row-fluid">
                     <div class="span12">
@@ -66,42 +96,11 @@
 
             </div> <!-- /container -->
 
-            <div id="push"></div>
 
         </div>
         
-        <footer class="footer-fix container-fluid">
+        <footer class="footer-fix container-fluid bg_inner_footer">
             
-            <div class="row-fluid"  style="max-width:940px;margin:0 auto;">
-
-                <div class="span12" style="margin-top:20px;">
-
-                    <div class="span3 pull-left">
-                        
-                        <img src="img/pro_01.png" alt=""/>
-
-                    </div>
-                    <div class="span3 pull-left">
-                        
-                        <img src="img/pro_02.png" alt=""/>
-
-                    </div>
-                    <div class="span3 pull-left">
-
-                        <img src="img/pro_03.png" alt=""/>
-
-                    </div>
-                    <div class="span3 pull-left">
-
-                        <img src="" alt="" class="pull-left"/><span style="color:red;">Ultimos</span> Comentarios
-
-                        <div id="ticker"></div>
-                    </div>
-
-                </div>
-
-            </div>
-
             <div class="row-fluid">
 
                 <p class="span12 text-center" style="font-size:10px;padding-top:10px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</p>

@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Toddy</title>
+        <title>Toddy - Productos</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -23,7 +23,8 @@
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
-    <body id="bg_all">
+    <body id="bg_jue">
+
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -34,19 +35,18 @@
 
         <div id="wrap">
 
-            <div class="container-fluid" style="max-width:940px;margin:0 auto;">
-
+            <div class="container-fluid">
                 <!--NAV-->
-                <header class="row-fluid cont_nav">
-
-                    <div style="position:relative;z-index:999;">
+                <header class="row-fluid inner_nav">
+                    
+                    <div class="cont_inner_nav">
                         
-                        <div class="span3">
+                        <div class="span2">
                         
                             <a href="./"><img src="img/logo_toddy.png" alt=""/></a>
 
                         </div>
-                        <nav class="span6 nav_prin">
+                        <nav class="span5 offset1 nav_prin">
 
                             <ul class="unstyled nav nav-pills">
                                 <li class="pull-left"><a href="productos.php">productos</a></li>
@@ -58,11 +58,10 @@
 
                         </nav>
 
-                        <div class="span3 text-center">
+                        <div class="span4 text-center">
                             
-                            Siguenos en
-
                             <ul class="unstyled nav_soci">
+                                <li class="pull-left" style="font-size:11px;width:65px;padding-top:4px;">Siguenos en</li>
                                 <li class="pull-left red_tw"><a href=""></a></li>
                                 <li class="pull-left red_fb"><a href=""></a></li>
                                 <li class="pull-left red_yt"><a href=""></a></li>
@@ -73,75 +72,39 @@
                     </div>
 
                 </header>
-
                 <!--SLIDE-->
                 <div class="row-fluid">
-                    <div class="span12">
-                        
-                        <div id="promos" class="carousel slide">
-                            
-                            <div class="carousel-inner text-center">
-                                <div class="active item"><a href=""><img src="img/destacados/banner001-trans.png" alt=""/></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner01-trans.png" alt=""/></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner02-trans.png" alt=""></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner03-trans.png" alt=""></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner04-trans.png" alt=""></a></div>
-                            </div>
+                    <div class="span12 text-center" style="margin-top:15%">
 
-                            <a class="carousel-control left" href="#promos" data-slide="prev"></a>
-                            <a class="carousel-control right" href="#promos" data-slide="next"></a>
-
+                        <div class="cont_jue">
+                            <img src="img/cont_jue.png" alt=""/>
                         </div>
 
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <div style="margin:0 auto; width:400px;">
+                                    <a href="https://itunes.apple.com/cl/app/lanza-toddy/id589880354?mt=8" targe="_blank"><img src="img/btn_appst.png" alt="" class="pull-left"/></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.toddy.lanzatoddy" target="_blank"><img src="img/btn_play.png" alt="" class="pull-left"/></a>
+                                </div>
+                            </div>
+                        </div>
+                            
                     </div>
                 </div>
 
             </div> <!-- /container -->
 
-            <div id="push"></div>
 
         </div>
         
-        <footer class="footer-fix container-fluid">
+        <footer class="footer-fix container-fluid bg_inner_footer">
             
-            <div class="row-fluid"  style="max-width:940px;margin:0 auto;">
-
-                <div class="span12" style="margin-top:20px;">
-
-                    <div class="span3 pull-left">
-                        
-                        <img src="img/pro_01.png" alt=""/>
-
-                    </div>
-                    <div class="span3 pull-left">
-                        
-                        <img src="img/pro_02.png" alt=""/>
-
-                    </div>
-                    <div class="span3 pull-left">
-
-                        <img src="img/pro_03.png" alt=""/>
-
-                    </div>
-                    <div class="span3 pull-left">
-
-                        <img src="" alt="" class="pull-left"/><span style="color:red;">Ultimos</span> Comentarios
-
-                        <div id="ticker"></div>
-                    </div>
-
-                </div>
-
-            </div>
-
             <div class="row-fluid">
 
                 <p class="span12 text-center" style="font-size:10px;padding-top:10px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</p>
 
             </div>
-
-            <div class="clearfix"></div>
-
+            <div class="clearfix"></div> 
         </footer>
 
 		<!--script-->
