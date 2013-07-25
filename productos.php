@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/jquery.sidr.light.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -39,7 +40,7 @@
                 <!--NAV-->
                 <header class="row-fluid inner_nav">
                     
-                    <div class="cont_inner_nav">
+                    <div class="cont_inner_nav hidden-phone">
                         
                         <div class="span2">
                         
@@ -71,12 +72,36 @@
 
                     </div>
 
+                    <div class="row-fluid cont_nav_ph hidden-desktop hidden-tablet">
+                        
+                        <div class="span12 text-center">
+                            
+                            <div class="icon_ph-nav">
+                                
+                                <a id="simple-menu2" href="#sidr" class="pull-right" style="margin-right:10px"><img src="img/icon_ph_nav.png" alt=""></a>
+
+                                <div id="sidr">
+                                  <!-- Your content -->
+                                  <ul>
+                                    <li><a href="productos.php">Toddy pa’ la sed</a></li>
+                                    <li class="active"><a href="productos.php">Toddy pal bajón</a></li>
+                                    <li><a href="productos.php">Toddy pal antojo</a></li>
+                                  </ul>
+                                </div>
+
+                            </div>
+                            <a href="./"><img src="img/logo_toddy.png" alt="" style="max-width:121px;margin-left:50px;"/></a>
+
+                        </div>
+
+                    </div>
+
                 </header>
                 <!--SLIDE-->
                 <div class="row-fluid">
                     <div class="span12">
                         
-                        <div id="prod" class="carousel slide">
+                        <div id="prod" class="carousel slide hidden-phone">
                             
                             <div class="carousel-inner">
                                 <div class="active item"><img src="img/pro_slide_01.png" alt=""/></div>
@@ -91,6 +116,21 @@
 
                         </div>
 
+                        <div id="prod2" class="carousel slide hidden-desktop hidden-tablet" style="margin-top:90px;">
+                            
+                            <div class="carousel-inner">
+                                <div class="active item"><img src="img/ph_pro_01.png" alt=""/></div>
+                                <div class="item"><img src="img/ph_pro_02.png" alt=""/></div>
+                                <div class="item"><img src="img/ph_pro_03.png" alt=""/></div>
+                                <div class="item"><img src="img/ph_pro_04.png" alt=""/></div>
+                                <div class="item"><img src="img/ph_pro_05.png" alt=""/></div>
+                            </div>
+
+                            <a class="carousel-control left" href="#prod2" data-slide="prev"></a>
+                            <a class="carousel-control right" href="#prod2" data-slide="next"></a>
+
+                        </div>
+
                     </div>
                 </div>
 
@@ -99,7 +139,7 @@
 
         </div>
         
-        <footer class="footer-fix container-fluid bg_inner_footer">
+        <footer class="footer-fix container-fluid bg_inner_footer hidden-phone">
             
             <div class="row-fluid">
 
@@ -107,6 +147,16 @@
 
             </div>
             <div class="clearfix"></div> 
+        </footer>
+
+        <footer class="hidden-desktop hidden-tablet footer_ph">
+            
+            <div class="row-fluid">
+
+                <p class="span12 text-center" style="font-size:10px;padding-top:10px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</p>
+
+            </div>
+
         </footer>
 
 		<!--script-->
@@ -118,6 +168,7 @@
 
         <script src="js/main.js"></script>
         <script charset="utf-8" src="twitter/jquery.tweet.js"></script>
+        <script src="js/vendor/jquery.sidr.js"></script>
 
 		<!--google analytics-->
 

@@ -32,14 +32,14 @@ html, body{
     background-repeat: repeat-x;
     background-color: #002466;
 }
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
     .footer-fix {
         margin-left: -20px;
         margin-right: -20px;
         padding-left: 20px;
         padding-right: 20px;
     }
-}
+}*/
 /*HEADER*/
 header.cont_nav{
     margin-top: 300px;
@@ -135,6 +135,29 @@ header .cont_inner_nav{
     width: 100%;
 }
 /*DESTACADOS*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
 #promos{
     max-width:780px;
     margin:-70px auto 0;
@@ -144,7 +167,7 @@ header .cont_inner_nav{
 #prod .item img{
     margin:0 auto;
 }
-#promos .carousel-control, #prod .carousel-control{
+#promos .carousel-control, #prod .carousel-control, #promos_2 .carousel-control, #prod2 .carousel-control{
     border: none !important;
     border-radius: none !important;
     background-color: transparent !important;
@@ -157,7 +180,7 @@ header .cont_inner_nav{
 #prod .carousel-control{
     top: 55%;
 }
-#promos .carousel-control.right, #prod .carousel-control.right{
+#promos .carousel-control.right, #prod .carousel-control.right, #promos_2 .carousel-control.right, #prod2 .carousel-control.right{
     background-position:-56px;
 }
 /*CONT COMIC*/
@@ -208,4 +231,64 @@ header .cont_inner_nav{
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+}
+@media (max-width:640px) {
+    body{
+        padding:0 !important;
+        background-attachment: fixed;
+    }
+    header.cont_nav{
+        margin-top:0;
+        background-image: url('../img/bg_ph_nav.jpg') !important;
+        height: 55px;
+    }
+    header.cont_nav .cont_nav_ph{
+        background-image: url('../img/bg_inner_nav_pun.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+    header.inner_nav{
+        position: relative;
+    }
+    #promos{
+        margin-top:0;
+    }
+    #promos_2 .item{
+        width: 640px;
+    }
+    #prod2 .item img{
+        margin:0 auto;
+    }
+    #prod2 .carousel-control{
+        margin-top:50px;
+    }
+    #prod2 .carousel-control{
+        margin-top:-40px;
+    }
+    footer.footer_ph{
+        position:fixed;
+        bottom:0;
+        width:100%;
+        background-image: url('../img/bg_ph_footer.jpg');
+        height:65px;
+        z-index: 9999;
+        background-repeat: repeat-x;
+        background-color: #00215d;
+    }
+    
+}
+@media (width:320px){
+    #promos_2 .item{
+        margin-left:-53%;
+    }
+}
+@media (width:480px){
+    #promos_2 .item{
+        margin-left:-20%;
+    }
+}
+@media (width:360px){
+    #promos_2 .item{
+        margin-left:-40%;
+    }
 }

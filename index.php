@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/jquery.sidr.light.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -39,7 +40,7 @@
                 <!--NAV-->
                 <header class="row-fluid cont_nav">
 
-                    <div style="position:relative;z-index:999;">
+                    <div class="hidden-phone" style="position:relative;z-index:999;">
                         
                         <div class="span3">
                         
@@ -72,24 +73,72 @@
 
                     </div>
 
+                    <div class="row-fluid cont_nav_ph hidden-desktop hidden-tablet">
+                        
+                        <div class="span12 text-center">
+                            
+                            <div class="icon_ph-nav">
+                                
+                                <a id="simple-menu" href="#sidr" class="pull-right" style="margin-right:10px"><img src="img/icon_ph_nav.png" alt=""></a>
+
+                                <div id="sidr">
+                                  <!-- Your content -->
+                                  <ul>
+                                    <li><a href="productos.php">Toddy pa’ la sed</a></li>
+                                    <li class="active"><a href="productos.php">Toddy pal bajón</a></li>
+                                    <li><a href="productos.php">Toddy pal antojo</a></li>
+                                  </ul>
+                                </div>
+
+                            </div>
+                            <a href="./"><img src="img/logo_toddy.png" alt="" style="max-width:121px;margin-left:50px;"/></a>
+
+                        </div>
+
+                    </div>
+                    
                 </header>
 
                 <!--SLIDE-->
                 <div class="row-fluid">
                     <div class="span12">
                         
-                        <div id="promos" class="carousel slide">
+                        <div id="promos" class="carousel slide carousel-fade hidden-phone">
                             
                             <div class="carousel-inner text-center">
                                 <div class="active item"><a href=""><img src="img/destacados/banner001-trans.png" alt=""/></a></div>
                                 <div class="item"><a href=""><img src="img/destacados/banner01-trans.png" alt=""/></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner02-trans.png" alt=""></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner03-trans.png" alt=""></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner04-trans.png" alt=""></a></div>
+                                <div class="item"><a href="https://apps.facebook.com/eligetoddy/" target="_blank"><img src="img/destacados/banner02-trans.png" alt=""></a></div>
+                                <div class="item"><a href="https://www.facebook.com/ToddyChile/app_190322544333196" target="_blank"><img src="img/destacados/banner03-trans.png" alt=""></a></div>
+                                <div class="item"><a href="https://www.facebook.com/ToddyChile/app_159471547524706" target="_blank"><img src="img/destacados/banner04-trans.png" alt=""></a></div>
                             </div>
-
+                            
                             <a class="carousel-control left" href="#promos" data-slide="prev"></a>
                             <a class="carousel-control right" href="#promos" data-slide="next"></a>
+
+                        </div>
+
+                        <div id="promos_2" class="carousel slide carousel-fade hidden-desktop hidden-tablet">
+                            
+                            <div class="carousel-inner text-center">
+                                
+                                <div class="active item">
+                                    <a href="https://www.facebook.com/ToddyChile" target="_blank"><img src="img/ph_promo_01.jpg" alt=""/></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="https://www.facebook.com/ToddyChile" target="_blank"><img src="img/ph_promo_02.jpg" alt=""/></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="https://www.facebook.com/ToddyChile" target="_blank"><img src="img/ph_promo_03.jpg" alt=""/></a>
+                                </div>
+
+                            </div>
+
+
+                            <a class="carousel-control left" href="#promos_2" data-slide="prev"></a>
+                            <a class="carousel-control right" href="#promos_2" data-slide="next"></a>
 
                         </div>
 
@@ -98,11 +147,11 @@
 
             </div> <!-- /container -->
 
-            <div id="push"></div>
+            <div id="push" class="hidden-phone"></div>
 
         </div>
         
-        <footer class="footer-fix container-fluid">
+        <footer class="footer-fix container-fluid hidden-phone">
             
             <div class="row-fluid"  style="max-width:940px;margin:0 auto;">
 
@@ -144,6 +193,16 @@
 
         </footer>
 
+        <footer class="hidden-desktop hidden-tablet footer_ph">
+            
+            <div class="row-fluid">
+
+                <p class="span12 text-center" style="font-size:10px;padding-top:10px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</p>
+
+            </div>
+
+        </footer>
+
 		<!--script-->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -153,6 +212,7 @@
 
         <script src="js/main.js"></script>
         <script charset="utf-8" src="twitter/jquery.tweet.js"></script>
+        <script src="js/vendor/jquery.sidr.js"></script>
 
 		<!--google analytics-->
 

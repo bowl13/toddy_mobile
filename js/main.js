@@ -27,6 +27,8 @@ $(document).ready(function(){
 		};
 	ticker();
 	});
+
+	$('#simple-menu, #simple-menu2').sidr();
 });
 //LOADING
 $(window).load(function(){
