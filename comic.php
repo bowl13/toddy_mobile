@@ -50,9 +50,9 @@
 
                             <ul class="unstyled nav nav-pills">
                                 <li class="pull-left"><a href="productos.php">productos</a></li>
-                                <li class="divider-vertica"></li>
-                                <li class="pull-left"><a href="juego.php">juegos</a></li>
-                                <li class="divider-vertical"></li>
+                                <li class="divider-vertica"><img src="img/sepa_menu2.png" alt=""/></li>
+                                <li class="pull-left"><a href="juego.php">juego</a></li>
+                                <li class="divider-vertical"><img src="img/sepa_menu2.png" alt=""/></li>
                                 <li class="pull-left"><a href="comic.php">comic</a></li>
                             </ul>
 
@@ -62,9 +62,9 @@
                             
                             <ul class="unstyled nav_soci">
                                 <li class="pull-left" style="font-size:11px;width:65px;padding-top:4px;">Siguenos en</li>
-                                <li class="pull-left red_tw"><a href=""></a></li>
-                                <li class="pull-left red_fb"><a href=""></a></li>
-                                <li class="pull-left red_yt"><a href=""></a></li>
+                                <li class="pull-left red_tw"><a href="https://twitter.com/toddy_cl" target="_blank"></a></li>
+                                <li class="pull-left red_fb"><a href="https://www.facebook.com/ToddyChile" target="_blank"></a></li>
+                                <li class="pull-left red_yt"><a href="http://www.youtube.com/user/toddychile?feature=watch" target="_blank"></a></li>
                             </ul>
 
                         </div>

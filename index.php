@@ -51,9 +51,9 @@
 
                             <ul class="unstyled nav nav-pills">
                                 <li class="pull-left"><a href="productos.php">productos</a></li>
-                                <li class="divider-vertica"></li>
-                                <li class="pull-left"><a href="juego.php">juegos</a></li>
-                                <li class="divider-vertical"></li>
+                                <li class="divider-vertica"><img src="img/sepa_menu.png" alt=""/></li>
+                                <li class="pull-left"><a href="juego.php">juego</a></li>
+                                <li class="divider-vertical"><img src="img/sepa_menu.png" alt=""/></li>
                                 <li class="pull-left"><a href="comic.php">comic</a></li>
                             </ul>
 
@@ -64,9 +64,9 @@
                             Siguenos en
 
                             <ul class="unstyled nav_soci">
-                                <li class="pull-left red_tw"><a href=""></a></li>
-                                <li class="pull-left red_fb"><a href=""></a></li>
-                                <li class="pull-left red_yt"><a href=""></a></li>
+                                <li class="pull-left red_tw"><a href="https://twitter.com/toddy_cl" target="_blank"></a></li>
+                                <li class="pull-left red_fb"><a href="https://www.facebook.com/ToddyChile" target="_blank"></a></li>
+                                <li class="pull-left red_yt"><a href="http://www.youtube.com/user/toddychile?feature=watch" target="_blank"></a></li>
                             </ul>
 
                         </div>
@@ -84,9 +84,10 @@
                                 <div id="sidr">
                                   <!-- Your content -->
                                   <ul>
-                                    <li><a href="productos.php">Toddy pa’ la sed</a></li>
-                                    <li class="active"><a href="productos.php">Toddy pal bajón</a></li>
-                                    <li><a href="productos.php">Toddy pal antojo</a></li>
+                                    <li><a href="productos_01.php">Toddy pa’ la sed</a></li>
+                                    <li class="active"><a href="productos_02.php">Toddy pal bajón</a></li>
+                                    <li><a href="productos_03.php">Toddy pal antojo</a></li>
+                                    <li><a href="juego.php">Juego</a></li>
                                   </ul>
                                 </div>
 
@@ -106,11 +107,11 @@
                         <div id="promos" class="carousel slide carousel-fade hidden-phone">
                             
                             <div class="carousel-inner text-center">
-                                <div class="active item"><a href=""><img src="img/destacados/banner001-trans.png" alt=""/></a></div>
-                                <div class="item"><a href=""><img src="img/destacados/banner01-trans.png" alt=""/></a></div>
-                                <div class="item"><a href="https://apps.facebook.com/eligetoddy/" target="_blank"><img src="img/destacados/banner02-trans.png" alt=""></a></div>
-                                <div class="item"><a href="https://www.facebook.com/ToddyChile/app_190322544333196" target="_blank"><img src="img/destacados/banner03-trans.png" alt=""></a></div>
-                                <div class="item"><a href="https://www.facebook.com/ToddyChile/app_159471547524706" target="_blank"><img src="img/destacados/banner04-trans.png" alt=""></a></div>
+                                <div class="active item"><a href="form_2.php"><img src="img/destacados/banner001-trans.png" alt=""/></a></div>
+                                <div class="item"><a href="https://www.facebook.com/ToddyChile/app_117826741748880"><img src="img/destacados/banner01-trans.png" alt=""/></a></div>
+                                <div class="item"><a href="juego.php" target="_blank"><img src="img/destacados/banner02-trans.png" alt=""></a></div>
+                                <div class="item"><a href="juego.php" target="_blank"><img src="img/destacados/banner03-trans.png" alt=""></a></div>
+                                <div class="item"><a href="comic.php" target="_blank"><img src="img/destacados/banner04-trans.png" alt=""></a></div>
                             </div>
                             
                             <a class="carousel-control left" href="#promos" data-slide="prev"></a>
@@ -159,17 +160,17 @@
 
                     <div class="span3 pull-left">
                         
-                        <img src="img/pro_01.png" alt=""/>
+                        <a href="productos_01.php"><img src="img/pro_01.png" alt=""/></a>
 
                     </div>
                     <div class="span3 pull-left">
                         
-                        <img src="img/pro_02.png" alt=""/>
+                            <a href="productos_02.php"><img src="img/pro_02.png" alt=""/></a>
 
                     </div>
                     <div class="span3 pull-left">
 
-                        <img src="img/pro_03.png" alt=""/>
+                        <a href="productos_03.php"><img src="img/pro_03.png" alt=""/></a>
 
                     </div>
                     <div class="span3 pull-left">
@@ -192,7 +193,7 @@
             <div class="clearfix"></div>
 
         </footer>
-
+        
         <footer class="hidden-desktop hidden-tablet footer_ph">
             
             <div class="row-fluid">

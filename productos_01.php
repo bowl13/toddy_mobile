@@ -105,11 +105,11 @@
                         <div id="prod" class="carousel slide hidden-phone">
                             
                             <div class="carousel-inner">
-                                <div class="active item"><img src="img/pro_slide_01.png" alt=""/></div>
+                                <div class="active item"><img src="img/pro_slide_05.png" alt=""/></div>
+                                <div class="item"><img src="img/pro_slide_01.png" alt=""/></div>
                                 <div class="item"><img src="img/pro_slide_02.png" alt=""/></div>
                                 <div class="item"><img src="img/pro_slide_03.png" alt=""/></div>
                                 <div class="item"><img src="img/pro_slide_04.png" alt=""/></div>
-                                <div class="item"><img src="img/pro_slide_05.png" alt=""/></div>
                             </div>
 
                             <a class="carousel-control left" href="#prod" data-slide="prev"></a>

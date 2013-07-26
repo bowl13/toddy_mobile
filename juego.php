@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/jquery.sidr.light.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -39,7 +40,7 @@
                 <!--NAV-->
                 <header class="row-fluid inner_nav">
                     
-                    <div class="cont_inner_nav">
+                    <div class="cont_inner_nav hidden-phone">
                         
                         <div class="span2">
                         
@@ -50,8 +51,8 @@
 
                             <ul class="unstyled nav nav-pills">
                                 <li class="pull-left"><a href="productos.php">productos</a></li>
-                                <li class="divider-vertica"></li>
-                                <li class="pull-left"><a href="juego.php">juegos</a></li>
+                                <li class="divider-vertica"><img src="img/sepa_menu2.png" alt=""/></li>
+                                <li class="pull-left"><a href="juego.php">juego</a></li>
                                 <li class="divider-vertical"></li>
                                 <li class="pull-left"><a href="comic.php">comic</a></li>
                             </ul>
@@ -62,10 +63,35 @@
                             
                             <ul class="unstyled nav_soci">
                                 <li class="pull-left" style="font-size:11px;width:65px;padding-top:4px;">Siguenos en</li>
-                                <li class="pull-left red_tw"><a href=""></a></li>
-                                <li class="pull-left red_fb"><a href=""></a></li>
-                                <li class="pull-left red_yt"><a href=""></a></li>
+                                <li class="pull-left red_tw"><a href="https://twitter.com/toddy_cl" target="_blank"></a></li>
+                                <li class="pull-left red_fb"><a href="https://www.facebook.com/ToddyChile" target="_blank"></a></li>
+                                <li class="pull-left red_yt"><a href="http://www.youtube.com/user/toddychile?feature=watch" target="_blank"></a></li>
                             </ul>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="row-fluid cont_nav_ph hidden-desktop hidden-tablet">
+                        
+                        <div class="span12 text-center">
+                            
+                            <div class="icon_ph-nav">
+                                
+                                <a id="simple-menu2" href="#sidr" class="pull-right" style="margin-right:10px"><img src="img/icon_ph_nav.png" alt=""></a>
+
+                                <div id="sidr">
+                                  <!-- Your content -->
+                                  <ul>
+                                    <li><a href="productos_01.php">Toddy pa’ la sed</a></li>
+                                    <li class="active"><a href="productos_02.php">Toddy pal bajón</a></li>
+                                    <li><a href="productos_03.php">Toddy pal antojo</a></li>
+                                    <li><a href="juego.php">Juego</a></li>
+                                  </ul>
+                                </div>
+
+                            </div>
+                            <a href="./"><img src="img/logo_toddy.png" alt="" style="max-width:121px;margin-left:50px;"/></a>
 
                         </div>
 
@@ -74,7 +100,7 @@
                 </header>
                 <!--SLIDE-->
                 <div class="row-fluid">
-                    <div class="span12 text-center" style="margin-top:15%">
+                    <div class="span12 text-center" style="margin-top:10%">
 
                         <div class="cont_jue">
                             <img src="img/cont_jue.png" alt=""/>
@@ -82,7 +108,7 @@
 
                         <div class="row-fluid">
                             <div class="span12">
-                                <div style="margin:0 auto; width:400px;">
+                                <div class="cont_btn_game">
                                     <a href="https://itunes.apple.com/cl/app/lanza-toddy/id589880354?mt=8" targe="_blank"><img src="img/btn_appst.png" alt="" class="pull-left"/></a>
                                     <a href="https://play.google.com/store/apps/details?id=com.toddy.lanzatoddy" target="_blank"><img src="img/btn_play.png" alt="" class="pull-left"/></a>
                                 </div>
@@ -91,7 +117,7 @@
                             
                     </div>
                 </div>
-
+                <div class="clearfix" style="height:70px"></div>
             </div> <!-- /container -->
 
 
@@ -116,6 +142,7 @@
 
         <script src="js/main.js"></script>
         <script charset="utf-8" src="twitter/jquery.tweet.js"></script>
+        <script src="js/vendor/jquery.sidr.js"></script>
 
 		<!--google analytics-->
 

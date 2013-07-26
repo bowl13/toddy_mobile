@@ -84,13 +84,13 @@ header .nav_soci li:hover{
     background-position: center bottom;
 }
 header .nav_soci .red_tw{
-    background-image: url('../img/toddy_tw.gif');
+    background-image: url('../img/toddy_tw.png');
 }
 header .nav_soci .red_fb{
-    background-image: url('../img/toddy_fb.gif');
+    background-image: url('../img/toddy_fb.png');
 }
 header .nav_soci .red_yt{
-    background-image: url('../img/toddy_yt.gif');
+    background-image: url('../img/toddy_yt.png');
 }
 header .nav_soci li a{
     display: block;
@@ -199,6 +199,12 @@ header .cont_inner_nav{
     -webkit-background-size: cover;
     background-size: cover;
 }
+/*JUEGO*/
+.cont_btn_game{
+    margin:0 auto;
+    max-width:400px;
+    width:50%;
+}
 /*FONDOS*/
 #bg_all{
     background-image: url('../img/bg_all.jpg');
@@ -276,6 +282,14 @@ header .cont_inner_nav{
         background-color: #00215d;
     }
     
+}
+@media(max-width:800px) and (min-width:768px){
+    header .nav_soci li{
+        margin-right:10px !important;
+    }
+    header .nav_prin li{
+        margin-left:10px;
+    }
 }
 @media (width:320px){
     #promos_2 .item{
