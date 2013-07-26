@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Toddy - Productos</title>
+        <title>Toddy - Juego</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -24,7 +24,7 @@
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
-    <body id="bg_jue">
+    <body id="bg_jue" style="overflow-x:hidden;">
 
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -53,7 +53,7 @@
                                 <li class="pull-left"><a href="productos.php">productos</a></li>
                                 <li class="divider-vertica"><img src="img/sepa_menu2.png" alt=""/></li>
                                 <li class="pull-left"><a href="juego.php">juego</a></li>
-                                <li class="divider-vertical"></li>
+                                <li class="divider-vertical"><img src="img/sepa_menu2.png" alt=""/></li>
                                 <li class="pull-left"><a href="comic.php">comic</a></li>
                             </ul>
 
@@ -100,7 +100,7 @@
                 </header>
                 <!--SLIDE-->
                 <div class="row-fluid">
-                    <div class="span12 text-center" style="margin-top:10%">
+                    <div class="span12 text-center hidden-phone" style="margin-top:10%">
 
                         <div class="cont_jue">
                             <img src="img/cont_jue.png" alt=""/>
@@ -109,16 +109,21 @@
                         <div class="row-fluid">
                             <div class="span12">
                                 <div class="cont_btn_game hidden-phone">
-                                    <a href="https://itunes.apple.com/cl/app/lanza-toddy/id589880354?mt=8" targe="_blank"><img src="img/btn_appst.png" alt="" class="pull-left"/></a>
+                                    <a href="https://itunes.apple.com/cl/app/lanza-toddy/id589880354?mt=8" target="_blank"><img src="img/btn_appst.png" alt="" class="pull-left"/></a>
                                     <a href="https://play.google.com/store/apps/details?id=com.toddy.lanzatoddy" target="_blank"><img src="img/btn_play.png" alt="" class="pull-left"/></a>
                                 </div>
                                 <div class="cont_btn_game hidden-desktop hidden-tablet">
-                                    <a href="http://www.lanzatoddy.cl" targe="_blank"><img src="img/btn_appst.png" alt="" class="pull-left"/></a>
+                                    <a href="http://www.lanzatoddy.cl" target="_blank"><img src="img/btn_appst.png" alt="" class="pull-left"/></a>
                                     <a href="http://www.lanzatoddy.cl" target="_blank"><img src="img/btn_play.png" alt="" class="pull-left"/></a>
                                 </div>
                             </div>
                         </div>
                             
+                    </div>
+                    <div class="span12 hidden-desktop hidden-tablet">
+                        
+                        <a href="http://www.lanzatoddy.cl" target="_blank"><img src="img/ph_promo_03.jpg" alt="" style="min-width:640px;margin-left:-40%;position:absolute;"/></a>
+
                     </div>
                 </div>
                 <div class="clearfix" style="height:70px"></div>

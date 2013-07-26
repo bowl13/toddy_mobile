@@ -109,11 +109,12 @@
 		<div class="row-fluid">
 			
 			<div class="span12 text-center">
-
-				<img class="headers" src="img/tit_suiza.gif" alt="Gana un viaje Suiza"/>
+				
 				
 				<div class="row-fluid bg-w">
-					
+
+					<img class="headers" src="img/tit_suiza.gif" alt="Gana un viaje Suiza"/>
+
 					<div class="span6 offset6 text-right text_prin">
 						
 						<p>Suiza está muy cerca, sólo debes comprar Toddy pa’ la leche en <img src="img/desta_tit.gif"/>, llenar este formulario y ya estarás participando por un viaje para 2 personas!</p>
