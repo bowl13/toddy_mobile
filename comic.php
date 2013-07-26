@@ -61,7 +61,7 @@
                         <div class="span4 text-center">
                             
                             <ul class="unstyled nav_soci">
-                                <li class="pull-left" style="font-size:11px;width:65px;padding-top:4px;">Siguenos en</li>
+                                <li class="pull-left" style="font-size:11px;width:65px;padding-top:4px;">Síguenos en</li>
                                 <li class="pull-left red_tw"><a href="https://twitter.com/toddy_cl" target="_blank"></a></li>
                                 <li class="pull-left red_fb"><a href="https://www.facebook.com/ToddyChile" target="_blank"></a></li>
                                 <li class="pull-left red_yt"><a href="http://www.youtube.com/user/toddychile?feature=watch" target="_blank"></a></li>

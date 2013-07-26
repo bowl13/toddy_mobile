@@ -16,10 +16,12 @@
 	<meta property="og:description" content="Que todos los vacunos sepan que acabai de postular para ir hacer relaciones exteriores al distrito del chocolate en Suiza!"/>
 
 	<link rel="stylesheet" href="css/master_suiza.css">
+	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/internas.css">
+	<link rel="stylesheet" href="css/jquery.sidr.light.css">
 
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	
 	<!--[if lt IE 9]>
 		<script src="bootstrap/js/html5shiv.js"></script>
@@ -42,32 +44,68 @@
 <body>
 	
 	<div class="container-fluid">
+		<!--NAV-->
+        <header class="row-fluid inner_nav">
+            
+            <div class="cont_inner_nav hidden-phone">
+                
+                <div class="span2">
+                
+                    <a href="./"><img src="img/logo_toddy.png" alt=""/></a>
 
-		<!--botonera toddy-->
-		<div id="botonera_int" class="hidden-phone hidden-tablet">
-			<div id="navegacion_int">
-				<div id="mover">
-					<a href="index.html">
-						<img border="0" src="img/logo-int-trans.png" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src='imgaes/logo-int-trans',sizingMethod='scale');" />
-					</a>
-					<a href="productos.html" id="btn1"></a>
-					<a href="juegos.html" id="btn2"></a>
-					<a href="comics.html" id="btn3"></a>
-					<div id="share">
-						<a href="http://twitter.com/toddy_cl" target="_blank" id="share1"></a>
-						<a href="http://www.facebook.com/ToddyChile" target="_blank" id="share2"></a>
-						<a href="http://www.youtube.com/user/toddychile?feature=watch" target="_blank" id="share3"></a>
-					</div>
-				</div>
-			</div>
-		</div>
+                </div>
+                <nav class="span5 offset1 nav_prin">
 
-		<div class="row-fluid hidden-desktop" style="background-image:url('img/top-int-trans.png');position:relative;z-index:99;background-repeat:repeat-x;height:80px;">
-			
-			<img border="0" src="img/logo-int-trans.png" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src='imgaes/logo-int-trans',sizingMethod='scale');" />
+                    <ul class="unstyled nav nav-pills">
+                        <li class="pull-left"><a href="productos.php">productos</a></li>
+                        <li class="divider-vertica"><img src="img/sepa_menu2.png" alt=""/></li>
+                        <li class="pull-left"><a href="juego.php">juego</a></li>
+                        <li class="divider-vertical"><img src="img/sepa_menu2.png" alt=""/></li>
+                        <li class="pull-left"><a href="comic.php">comic</a></li>
+                    </ul>
 
-		</div>
-		
+                </nav>
+
+                <div class="span4 text-center">
+                    
+                    <ul class="unstyled nav_soci">
+                        <li class="pull-left" style="font-size:11px;width:65px;padding-top:4px;color:#fff">Síguenos en</li>
+                        <li class="pull-left red_tw"><a href="https://twitter.com/toddy_cl" target="_blank"></a></li>
+                        <li class="pull-left red_fb"><a href="https://www.facebook.com/ToddyChile" target="_blank"></a></li>
+                        <li class="pull-left red_yt"><a href="http://www.youtube.com/user/toddychile?feature=watch" target="_blank"></a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="row-fluid cont_nav_ph hidden-desktop hidden-tablet">
+                
+                <div class="span12 text-center">
+                    
+                    <div class="icon_ph-nav">
+                        
+                        <a id="simple-menu2" href="#sidr" class="pull-right" style="margin-right:10px"><img src="img/icon_ph_nav.png" alt=""></a>
+
+                        <div id="sidr">
+                          <!-- Your content -->
+                          <ul>
+                            <li><a href="productos_01.php">Toddy pa’ la sed</a></li>
+                            <li class="active"><a href="productos_02.php">Toddy pal bajón</a></li>
+                            <li><a href="productos_03.php">Toddy pal antojo</a></li>
+                            <li><a href="juego.php">Juego</a></li>
+                          </ul>
+                        </div>
+
+                    </div>
+                    <a href="./"><img src="img/logo_toddy.png" alt="" style="max-width:121px;margin-left:50px;"/></a>
+
+                </div>
+
+            </div>
+
+        </header>
+
 		<div class="row-fluid">
 			
 			<div class="span12 text-center">
@@ -225,7 +263,7 @@
 
 											<input type="checkbox" id="inputEdad" class="check pull-left">
 											<label class="checkbox control-label pull-left" style="font-size:10px !important;line-height:12px">
-												Declaro ser mayor de 18 años y acepto las <a style="color:#003333;" href="bases.pdf">bases de la promoción.</a>
+												Declaro ser mayor de 18 años y acepto las <a style="color:#003333;" href="bases/bases.pdf">bases de la promoción.</a>
 											</label>
 
 										</div>
@@ -271,12 +309,17 @@
 	
 	<div class="clearfix"></div>
 
-	<footer class="footer-fix container-fluid text-center">® Copyright PepsiCo 2013 - Todos los derechos reservados.</footer>
+	<footer class="footer-fix container-fluid text-center" style="height:50px !important;color:#fff;font-size:10px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</footer>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/form.js"></script>
 	<script src="js/vendor/jquery.Rut.js" type="text/javascript"></script>
+	<script src="js/vendor/jquery.sidr.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('#simple-menu, #simple-menu2').sidr();
+	});</script>
 
 
 </body>

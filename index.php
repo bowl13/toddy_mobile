@@ -61,7 +61,7 @@
 
                         <div class="span3 text-center">
                             
-                            Siguenos en
+                            Síguenos en
 
                             <ul class="unstyled nav_soci">
                                 <li class="pull-left red_tw"><a href="https://twitter.com/toddy_cl" target="_blank"></a></li>
@@ -125,9 +125,13 @@
                             <div class="carousel-inner text-center">
                                 
                                 <div class="active item">
-                                    <a href="https://www.facebook.com/ToddyChile" target="_blank"><img src="img/ph_promo_01.jpg" alt=""/></a>
+                                    <a href=".pdf"><img src="img/ph_promo_05.jpg" alt=""/></a>
                                 </div>
 
+                                <div class="item">
+                                    <a href="form_2.php"><img src="img/ph_promo_01.jpg" alt=""/></a>
+                                </div>
+                                
                                 <div class="item">
                                     <a href="https://www.facebook.com/ToddyChile" target="_blank"><img src="img/ph_promo_02.jpg" alt=""/></a>
                                 </div>
@@ -199,7 +203,7 @@
             
             <div class="row-fluid">
 
-                <p class="span12 text-center" style="font-size:10px;padding-top:10px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</p>
+                <p class="span12 text-center" style="font-size:9px !important;padding-top:10px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</p>
 
             </div>
 
@@ -214,6 +218,7 @@
 
         <script src="js/main.js"></script>
         <script charset="utf-8" src="twitter/jquery.tweet.js"></script>
+        <script src="js/vendor/jquery.tweet.js"></script>
         <script src="js/vendor/jquery.sidr.js"></script>
 
 		<!--google analytics-->

@@ -1,6 +1,7 @@
 html, body{
 	height: 100%;
     color: #fff;
+    font-family: 'Helvetica', Arial , Sans-Serif;
 }
 .load{
     background-color: #fff;
@@ -281,7 +282,13 @@ header .cont_inner_nav{
         background-repeat: repeat-x;
         background-color: #00215d;
     }
-    
+    /*JUEGO*/
+    .cont_btn_game{
+        margin:0 auto;
+        max-width:400px;
+        width:60%;
+        padding-left:50px;
+    }
 }
 @media(max-width:800px) and (min-width:768px){
     header .nav_soci li{

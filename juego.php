@@ -62,7 +62,7 @@
                         <div class="span4 text-center">
                             
                             <ul class="unstyled nav_soci">
-                                <li class="pull-left" style="font-size:11px;width:65px;padding-top:4px;">Siguenos en</li>
+                                <li class="pull-left" style="font-size:11px;width:65px;padding-top:4px;">Síguenos en</li>
                                 <li class="pull-left red_tw"><a href="https://twitter.com/toddy_cl" target="_blank"></a></li>
                                 <li class="pull-left red_fb"><a href="https://www.facebook.com/ToddyChile" target="_blank"></a></li>
                                 <li class="pull-left red_yt"><a href="http://www.youtube.com/user/toddychile?feature=watch" target="_blank"></a></li>
@@ -108,9 +108,13 @@
 
                         <div class="row-fluid">
                             <div class="span12">
-                                <div class="cont_btn_game">
+                                <div class="cont_btn_game hidden-phone">
                                     <a href="https://itunes.apple.com/cl/app/lanza-toddy/id589880354?mt=8" targe="_blank"><img src="img/btn_appst.png" alt="" class="pull-left"/></a>
                                     <a href="https://play.google.com/store/apps/details?id=com.toddy.lanzatoddy" target="_blank"><img src="img/btn_play.png" alt="" class="pull-left"/></a>
+                                </div>
+                                <div class="cont_btn_game hidden-desktop hidden-tablet">
+                                    <a href="http://www.lanzatoddy.cl" targe="_blank"><img src="img/btn_appst.png" alt="" class="pull-left"/></a>
+                                    <a href="http://www.lanzatoddy.cl" target="_blank"><img src="img/btn_play.png" alt="" class="pull-left"/></a>
                                 </div>
                             </div>
                         </div>
