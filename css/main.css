@@ -10,6 +10,10 @@ html, body{
     height: 100%;
     top: 0;
     left:0;
+    background-color: #fce4a8;
+    background-image: url('../img/load.gif');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #wrap, footer{
     display: none;
