@@ -31,7 +31,6 @@
         <![endif]-->
 
         <div class="load">
-            loading...
         </div>
 
         <div id="wrap">
@@ -99,8 +98,8 @@
 
                 </header>
                 <!--SLIDE-->
-                <div class="row-fluid">
-                    <div class="span12 text-center hidden-phone" style="margin-top:10%">
+                <div class="row-fluid hidden-phone">
+                    <div class="span12 text-center" style="margin-top:10%">
 
                         <div class="cont_jue">
                             <img src="img/cont_jue.png" alt=""/>
@@ -118,17 +117,14 @@
                                 </div>
                             </div>
                         </div>
-                            
                     </div>
-                    <div class="span12 hidden-desktop hidden-tablet">
-                        
-                        <a href="http://www.lanzatoddy.cl" target="_blank"><img src="img/ph_promo_03.jpg" alt="" style="min-width:640px;margin-left:-40%;position:absolute;"/></a>
-
-                    </div>
+                                         
                 </div>
+
+                 <a href="http://www.lanzatoddy.cl" target="_blank" class="text-center" style="display:block;width:100%;height:100%;"><img src="img/cont_juego_ph.png" alt="" style="margin-top:30px;"/></a>
+
                 <div class="clearfix" style="height:70px"></div>
             </div> <!-- /container -->
-
 
         </div>
         

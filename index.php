@@ -34,7 +34,7 @@
 
         <div id="wrap">
 
-            <div class="container-fluid" style="max-width:940px;margin:0 auto;position:absolute;bottom:200px;left:0;right:0;margin:0 auto;">
+            <div class="container-fluid adapt_index">
 
                 <!--NAV-->
                 <header class="row-fluid cont_nav">

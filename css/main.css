@@ -14,6 +14,7 @@ html, body{
     background-image: url('../img/load.gif');
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 99999999;
 }
 #wrap, footer{
     display: none;
@@ -46,6 +47,15 @@ html, body{
         padding-right: 20px;
     }
 }*/
+.adapt_index{
+    max-width:940px;
+    margin:0 auto;
+    position:absolute;
+    bottom:200px;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
 /*HEADER*/
 header.cont_nav{
     /*margin-top: 300px;*/
@@ -248,6 +258,9 @@ header .cont_inner_nav{
     body{
         padding:0 !important;
         background-attachment: fixed;
+    }
+    .adapt_index{
+        position: inherit !important;
     }
     header.cont_nav{
         margin-top:0;

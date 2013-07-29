@@ -30,7 +30,6 @@
         <![endif]-->
 
         <div class="load">
-            loading...
         </div>
 
         <div id="wrap">
