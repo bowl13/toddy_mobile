@@ -140,7 +140,7 @@
 
         </div>
         
-        <footer class="footer-fix container-fluid bg_inner_footer hidden-phone">
+        <footer class="footer-fix bg_inner_footer hidden-phone">
             
             <div class="row-fluid">
 

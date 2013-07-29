@@ -35,7 +35,7 @@
 
         <div id="wrap">
 
-            <div class="container-fluid" style="max-width:940px;margin:0 auto;">
+            <div class="container-fluid" style="max-width:940px;margin:0 auto;position:absolute;bottom:200px;left:0;right:0;margin:0 auto;">
 
                 <!--NAV-->
                 <header class="row-fluid cont_nav">
@@ -158,39 +158,38 @@
         
         <footer class="footer-fix container-fluid hidden-phone">
             
-            <div class="row-fluid"  style="max-width:940px;margin:0 auto;">
+            <div class="row-fluid"  style="max-width:940px;margin:0 auto;padding-top:40px;">
 
-                <div class="span12" style="margin-top:20px;">
+                <div class="span12">
 
-                    <div class="span3 pull-left">
+                    <div class="row-fluid">
+                        <div class="span3 pull-left">
                         
-                        <a href="productos_01.php"><img src="img/pro_01.png" alt=""/></a>
+                            <a href="productos_01.php"><img src="img/pro_01.png" alt=""/></a>
 
+                        </div>
+                        <div class="span3 pull-left">
+                            
+                                <a href="productos_02.php"><img src="img/pro_02.png" alt=""/></a>
+
+                        </div>
+                        <div class="span3 pull-left">
+
+                            <a href="productos_03.php"><img src="img/pro_03.png" alt=""/></a>
+
+                        </div>
+                        <div class="span3 pull-left">
+
+                            <img src="" alt="" class="pull-left"/><span style="color:red;">Ultimos</span> Comentarios
+
+                            <div id="ticker"></div>
+                        </div>
                     </div>
-                    <div class="span3 pull-left">
-                        
-                            <a href="productos_02.php"><img src="img/pro_02.png" alt=""/></a>
 
+                    <div class="row-fluid">
+                        <p class="span12 text-center" style="font-size:10px;padding-top:5px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</p>
                     </div>
-                    <div class="span3 pull-left">
-
-                        <a href="productos_03.php"><img src="img/pro_03.png" alt=""/></a>
-
-                    </div>
-                    <div class="span3 pull-left">
-
-                        <img src="" alt="" class="pull-left"/><span style="color:red;">Ultimos</span> Comentarios
-
-                        <div id="ticker"></div>
-                    </div>
-
                 </div>
-
-            </div>
-
-            <div class="row-fluid">
-
-                <p class="span12 text-center" style="font-size:10px;padding-top:10px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</p>
 
             </div>
 

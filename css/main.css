@@ -19,19 +19,20 @@ html, body{
 	min-height:100%;
 	height: auto !important;
     height: 100%;
-    margin: 0 auto -185px;
+    margin: 0 auto -200px;
 }
 #push, .footer-fix{
-	height: 185px;
+	height: 200px;
 }
 .footer-fix{
 	/*margin-top: -185px;*/
-	height:185px;
+	height:200px;
 	clear:both;
-  	padding-top:20px;
+  	/*padding-top:20px;*/
     background-image: url('../img/bg_footer.gif');
     background-repeat: repeat-x;
     background-color: #002466;
+    bottom: 0;
 }
 /*@media (max-width: 767px) {
     .footer-fix {
@@ -43,7 +44,7 @@ html, body{
 }*/
 /*HEADER*/
 header.cont_nav{
-    margin-top: 300px;
+    /*margin-top: 300px;*/
     background-image: url('../img/bg_nav.png');
     background-position: center;
     -webkit-background-size: cover;
@@ -128,7 +129,7 @@ header .cont_inner_nav{
 .bg_inner_footer{
     background-image: url('../img/bg_inner_footer.png');
     background-color: transparent !important;
-    height: 45px;
+    height: 60px;
     background-position: center;
     background-repeat: no-repeat;
     position: fixed;
@@ -296,6 +297,7 @@ header .cont_inner_nav{
     }
     header .nav_prin li{
         margin-left:10px;
+        font-size: 13px;
     }
 }
 @media (width:320px){

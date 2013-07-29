@@ -88,7 +88,7 @@
 
         </div>
         
-        <footer class="footer-fix container-fluid bg_inner_footer">
+        <footer class="footer-fix bg_inner_footer">
             
             <div class="row-fluid">
 
