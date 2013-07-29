@@ -179,9 +179,10 @@
                         </div>
                         <div class="span3 pull-left">
 
-                            <img src="" alt="" class="pull-left"/><span style="color:red;">Ultimos</span> Comentarios
+                            <span style="color:red;">Ultimos</span> Comentarios
 
                             <div id="ticker"></div>
+                            
                         </div>
                     </div>
 

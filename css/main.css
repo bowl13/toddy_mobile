@@ -38,6 +38,7 @@ html, body{
     background-repeat: repeat-x;
     background-color: #002466;
     bottom: 0;
+    display:block;
 }
 /*@media (max-width: 767px) {
     .footer-fix {
@@ -55,6 +56,11 @@ html, body{
     left:0;
     right:0;
     margin:0 auto;
+    *left:15%;
+    left:0px\0/IE8;
+}
+:root .adapt_index{
+    left:15%\0/IE9;
 }
 /*HEADER*/
 header.cont_nav{
