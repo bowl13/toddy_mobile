@@ -40,6 +40,14 @@ html, body{
     bottom: 0;
     display:block;
 }
+#ticker {
+    background: transparent;
+    padding: 0 10px;
+    width: 175px;
+    height: 80px;
+    overflow: hidden;
+}
+
 /*@media (max-width: 767px) {
     .footer-fix {
         margin-left: -20px;

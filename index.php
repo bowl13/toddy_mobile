@@ -178,10 +178,14 @@
 
                         </div>
                         <div class="span3 pull-left">
+                         <span style="color:red;">Ultimos</span> Comentarios
+<div id="ticker">
+                            
+<a class="twitter-timeline" href="https://twitter.com/toddy_cl" data-widget-id="328843131174912003" data-theme="dark" data-link-color="#fff" data-chrome="noheader nofooter transparent noborders"  data-related="twitterapi,twitter" data-aria-polite="assertive" width="100" height="100" lang="ES" >Tweets por @toddy_cl</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-                            <span style="color:red;">Ultimos</span> Comentarios
 
-                            <div id="ticker"></div>
+                            </div>
                             
                         </div>
                     </div>
@@ -215,8 +219,6 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
-        <script charset="utf-8" src="twitter/jquery.tweet.js"></script>
-        <script src="js/vendor/jquery.tweet.js"></script>
         <script src="js/vendor/jquery.sidr.js"></script>
 
 		<!--google analytics-->
