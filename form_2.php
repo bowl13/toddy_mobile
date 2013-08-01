@@ -114,7 +114,7 @@
 				<div class="row-fluid bg-w">
 
 					<img class="headers" src="img/tit_suiza.gif" alt="Gana un viaje Suiza"/>
-
+					<div class="clearfix" style="height:70px"></div>
 					<div class="span6 offset6 text-right text_prin">
 						
 						<p>Suiza está muy cerca, sólo debes comprar Toddy pa’ la leche en <img src="img/desta_tit.gif"/>, llenar este formulario y ya estarás participando por un viaje para 2 personas!</p>
@@ -310,7 +310,7 @@
 	
 	<div class="clearfix"></div>
 
-	<footer class="footer-fix container-fluid text-center" style="height:50px !important;color:#fff;font-size:10px;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</footer>
+	<footer class="footer-fix container-fluid text-center" style="height:50px !important;color:#fff;font-size:10px;position:relative;bottom:0;">® Copyright PepsiCo 2013 - Todos los derechos reservados.</footer>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>

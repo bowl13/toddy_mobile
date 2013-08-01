@@ -6,6 +6,8 @@ $(document).ready(function(){
 		$('.cont_comic a').css('background-image','url(img/cont_comic.png)');
 	});
 
+	$('#simple-menu, #simple-menu2').sidr();
+
 	$("#ticker").tweet({
 		username: "toddy_cl",
 		page: 2,
@@ -27,8 +29,7 @@ $(document).ready(function(){
 		};
 	ticker();
 	});
-
-	$('#simple-menu, #simple-menu2').sidr();
+	
 });
 //LOADING
 $(window).load(function(){
