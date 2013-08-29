@@ -98,7 +98,7 @@
 
                 </header>
                 <!--SLIDE-->
-                <div class="row-fluid">
+                <div class="row-fluid ph_bg_pro">
                     <div class="span12">
                         
                         <div id="prod" class="carousel slide hidden-phone">
@@ -116,10 +116,11 @@
 
                         </div>
 
-                        <div id="prod2" class="carousel slide hidden-desktop hidden-tablet" style="margin-top:90px;">
+                        <div id="prod2" class="carousel slide hidden-desktop hidden-tablet">
                             
                             <div class="carousel-inner">
-                                <div class="active item"><img src="img/ph_pro_01.png" alt=""/></div>
+                                <div class="active item"><img src="img/ph_pro_06.png" alt=""/></div>
+                                <div class="item"><img src="img/ph_pro_01.png" alt=""/></div>
                                 <div class="item"><img src="img/ph_pro_02.png" alt=""/></div>
                                 <div class="item"><img src="img/ph_pro_03.png" alt=""/></div>
                                 <div class="item"><img src="img/ph_pro_04.png" alt=""/></div>

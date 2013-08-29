@@ -268,6 +268,14 @@ header .cont_inner_nav{
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media (max-width:320px) and (max-width:480px){
+    .ph_bg_pro{
+        min-height: 450px !important;
+    }
+    #prod2{
+        margin-top: 30px !important;
+    }
+}
 @media (max-width:640px) {
     body{
         padding:0 !important;
@@ -289,11 +297,20 @@ header .cont_inner_nav{
     header.inner_nav{
         position: relative;
     }
+    .ph_bg_pro{
+        min-height:520px;
+        background-image: url("../img/ph_bg_pro.png");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
     #promos{
         margin-top:0;
     }
     #promos_2 .item{
         width: 640px;
+    }
+    #prod2{
+        margin-top:90px; 
     }
     #prod2 .item img{
         margin:0 auto;
