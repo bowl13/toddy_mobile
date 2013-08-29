@@ -106,8 +106,6 @@
                         <div id="promos" class="carousel slide carousel-fade hidden-phone">
                             
                             <div class="carousel-inner text-center">
-                                <div class="active item"><a href="bases/bases_surlat.pdf"><img src="img/destacados/banner05-trans.png" alt=""></a></div>
-                                <div class="item"><a href="form_2.php"><img src="img/destacados/banner001-trans.png" alt=""/></a></div>
                                 <div class="item"><a href="https://www.facebook.com/ToddyChile/app_117826741748880" target="_blank"><img src="img/destacados/banner01-trans.png" alt=""/></a></div>
                                 <div class="item"><a href="juego.php"><img src="img/destacados/banner02-trans.png" alt=""></a></div>
                                 <div class="item"><a href="comic.php"><img src="img/destacados/banner03-trans.png" alt=""></a></div>
