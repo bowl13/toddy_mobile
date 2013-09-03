@@ -106,8 +106,8 @@
                         <div id="promos" class="carousel slide carousel-fade hidden-phone">
                             
                             <div class="carousel-inner text-center">
-                                <div class="active item"><a href="https://www.facebook.com/ToddyChile/app_117826741748880" target="_blank"><img src="img/destacados/banner06-trans.png" alt=""/></a></div>
-                                <div class="item"><a href="juego.php"><img src="img/destacados/banner01-trans.png" alt=""></a></div>
+                                <div class="active item"><a href="productos_01.php"><img src="img/destacados/banner06-trans.png" alt=""/></a></div>
+                                <div class="item"><a href="https://www.facebook.com/ToddyChile/app_117826741748880" target="_blank"><img src="img/destacados/banner01-trans.png" alt=""></a></div>
                                 <div class="item"><a href="juego.php"><img src="img/destacados/banner02-trans.png" alt=""></a></div>
                                 <div class="item"><a href="comic.php"><img src="img/destacados/banner03-trans.png" alt=""></a></div>
                             </div>
@@ -122,6 +122,10 @@
                             <div class="carousel-inner text-center">
                                 
                                 <div class="active item">
+                                    <a href="productos_01.php"><img src="img/ph_promo_04 .jpg" alt=""/></a>
+                                </div>
+
+                                <div class="item">
                                     <a href="https://www.facebook.com/ToddyChile" target="_blank"><img src="img/ph_promo_02.jpg" alt=""/></a>
                                 </div>
 
