@@ -122,7 +122,7 @@
                             <div class="carousel-inner text-center">
                                 
                                 <div class="active item">
-                                    <a href="productos_01.php"><img src="img/ph_promo_04 .jpg" alt=""/></a>
+                                    <a href="productos_01.php"><img src="img/ph_promo_04.jpg" alt=""/></a>
                                 </div>
 
                                 <div class="item">
