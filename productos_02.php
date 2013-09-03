@@ -98,7 +98,7 @@
 
                 </header>
                 <!--SLIDE-->
-                <div class="row-fluid">
+                <div class="row-fluid ph_bg_pro">
                     <div class="span12">
                         
                         <div id="prod" class="carousel slide hidden-phone">
