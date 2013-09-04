@@ -23,6 +23,14 @@
         <link rel="stylesheet" href="css/jquery.sidr.light.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+        <!--[if IE 7]>
+        <style>
+            .adapt_index{
+                left:4% !important;
+            }
+        </style>
+        <![endif]-->
     </head>
     <body id="bg_all">
         <!--[if lt IE 7]>

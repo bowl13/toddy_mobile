@@ -12,8 +12,8 @@ $(document).ready(function(){
 		username: "toddy_cl",
 		page: 2,
 		avatar_size: 40,
-		count: 20,
-		loading_text: "cargando ..."
+		count: 20/*,
+		loading_text: "cargando ..."*/
 	}).bind("loaded", function() {
 		var ul = $(this).find(".tweet_list");
 		var ticker = function() {
